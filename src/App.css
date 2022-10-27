@@ -37,3 +37,7 @@
     transform: rotate(360deg);
   }
 }
+
+.buttonBg {
+  color: #d4d4d4;
+}

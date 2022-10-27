@@ -9,113 +9,113 @@ import React from 'react';
 class Calculator extends React.PureComponent {
   render() {
     return (
-      <Container className="d-grid gap-2 mt-5 pt-5">
+      <Container className="d-grid mt-5 pt-5">
         <Row>
-          <Col>
-            <p className="mb-0 text-end">0</p>
+          <Col className="p-0">
+            <Button className="mb-0 text-end w-100 border border-white rounded-0" variant="secondary">0</Button>
           </Col>
         </Row>
         <Row>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               AC
             </Button>
           </Col>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               +/-
             </Button>
           </Col>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               %
             </Button>
           </Col>
-          <Col>
-            <Button variant="warning" className="w-100">
+          <Col className="p-0">
+            <Button variant="warning" className="w-100 border border-white rounded-0">
               /
             </Button>
           </Col>
         </Row>
         <Row>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               7
             </Button>
           </Col>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               8
             </Button>
           </Col>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               9
             </Button>
           </Col>
-          <Col>
-            <Button variant="warning" className="w-100">
+          <Col className="p-0">
+            <Button variant="warning" className="w-100 border border-white rounded-0">
               *
             </Button>
           </Col>
         </Row>
         <Row>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               4
             </Button>
           </Col>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               5
             </Button>
           </Col>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-whit rounded-0">
               6
             </Button>
           </Col>
-          <Col>
-            <Button variant="warning" className="w-100">
+          <Col className="p-0">
+            <Button variant="warning" className="w-100 border border-white rounded-0">
               -
             </Button>
           </Col>
         </Row>
         <Row>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               1
             </Button>
           </Col>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               2
             </Button>
           </Col>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               7
             </Button>
           </Col>
-          <Col>
-            <Button variant="warning" className="w-100">
+          <Col className="p-0">
+            <Button variant="warning" className="w-100 border border-white rounded-0">
               +
             </Button>
           </Col>
         </Row>
         <Row>
-          <Col xs={6}>
-            <Button variant="secondary" className="w-100">
+          <Col xs={6} className="p-0">
+            <Button variant="secondary" className="w-100 border border-white rounded-0">
               0
             </Button>
           </Col>
-          <Col>
-            <Button variant="secondary" className="w-100">
+          <Col className="p-0">
+            <Button variant="secondary" className="w-100 rounded-0">
               .
             </Button>
           </Col>
-          <Col>
-            <Button variant="warning" className="w-100">
+          <Col className="p-0">
+            <Button variant="warning" className="w-100 rounded-0">
               =
             </Button>
           </Col>
