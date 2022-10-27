@@ -11,7 +11,7 @@ class Calculator extends React.PureComponent {
     return (
       <Container className="d-grid mt-5 pt-5">
         <Row>
-        <Col className="p-0">
+          <Col className="p-0">
             <Button className="mb-0 text-end w-100 border border-white rounded-0" variant="secondary">0</Button>
           </Col>
         </Row>
@@ -38,7 +38,7 @@ class Calculator extends React.PureComponent {
           </Col>
         </Row>
         <Row>
-        <Col className="p-0">
+          <Col className="p-0">
             <Button variant="secondary" className="w-100 border border-white rounded-0">
               7
             </Button>
@@ -60,7 +60,7 @@ class Calculator extends React.PureComponent {
           </Col>
         </Row>
         <Row>
-        <Col className="p-0">
+          <Col className="p-0">
             <Button variant="secondary" className="w-100 border border-white rounded-0">
               4
             </Button>
@@ -82,7 +82,7 @@ class Calculator extends React.PureComponent {
           </Col>
         </Row>
         <Row>
-        <Col className="p-0">
+          <Col className="p-0">
             <Button variant="secondary" className="w-100 border border-white rounded-0">
               1
             </Button>
