@@ -115,7 +115,7 @@ class Calculator extends React.PureComponent {
             </Button>
           </Col>
           <Col>
-            <Button variant="warning" className="w-100">
+            <Button variant="danger" className="w-100">
               =
             </Button>
           </Col>
