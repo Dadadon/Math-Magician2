@@ -112,7 +112,7 @@ const Calculator = () => {
         </Col>
         <Col className="p-0">
           <Button variant="secondary" className="w-100 border border-white rounded-0" onClick={handleClick}>
-            7
+            3
           </Button>
         </Col>
         <Col className="p-0">
